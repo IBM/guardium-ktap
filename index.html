@@ -4,7 +4,7 @@
   <style>
         #myTable {
             border-collapse: collapse;
-            margin: auto;
+            margin-left: 75px;
             width: 50%;
             margin-bottom: 20px;
         }
@@ -18,7 +18,7 @@
 
         #pagination {
             display: flex;
-            margin: auto;
+            margin-left: 75px;
             width: 50%;
             align-items: center;
             margin-top: 10px;
@@ -33,41 +33,50 @@
         }
 
         #pagination button.active {
-            background-color: #0047ff; /* Green background for the active page */
+            background-color: #0f62fe; /* Green background for the active page */
             color: white;
+        }
+
+        #table1, #reset, #content, #rowCounter{
+          margin-left: 75px;
+        }
+
+        #kernel_string{
+          margin-left: 72.5px;
         }
   </style>
   <body>
-    <h1>Finding the correct K-TAP version for your Linux kernel</h1>
-    <text>
-      You can use this application to find the appropriate K-TAP version for
-      your Linux kernel.
-
-      <ul>
-        <li>Select the Guardium version</li>
-        <li>Select the required operating system</li>
-        <li>Optionally enter the kernel version - fully or partially</li>
-      </ul>
-
-      <p>
-        If you need to locate your Linux kernel version, use the command 'uname
-        -r' in your Linux terminal or console.
-      </p>
-
-      <p>
-        You can download the latest KTAP modules from
-        <a href="https://www.ibm.com/support/fixcentral/">IBM Fix Central</a>
-      </p></text
-    >
+    <div id="content">
+      <h1>Matching the K-TAP Version to a Linux Kernel</h1>
+      <text>
+        You can use this application to find the appropriate K-TAP version for
+        your Linux kernel.
+  
+        <ul>
+          <li>Select the Guardium version</li>
+          <li>Select the required operating system</li>
+          <li>Optionally enter the kernel version - fully or partially</li>
+        </ul>
+  
+        <p>
+          To locate the Linux kernel version, use the command 'uname -r' in your Linux terminal or console.
+        </p>
+  
+        <p>
+          Download the latest KTAP modules from
+          <a href="https://www.ibm.com/support/fixcentral/">IBM Fix Central</a>
+        </p></text
+      >
+    </div>
 
     <hr />
 
-    <form action="/action_page.php">
-      <table>
+      <table id="table1">
         <tr>
           <td>
             <label for="kernel_string">Kernel:</label>
-            <input type="text" id="kernel_string" name="kernel_string" />
+            <input type="text" id="kernel_string" name="kernel_string" placeholder="Enter Kernel"/>
+            <button id="filter_button">Filter Kernel</button>
           </td>
         </tr>
         <tr>
@@ -92,7 +101,6 @@
               <option value="114_orig_r11110.3">114_orig_r11110.3</option>
             </select>
           </td>
-
           <td>
             <label for="os">Operating System:</label>
             <select name="os" id="osDropdown" value="All">
@@ -111,9 +119,8 @@
         </tr>
       </table>
       <p>
-        <input type="button" value="Reset selection" />
+        <button id="reset" onclick="resetSelection()">Reset Selection</button>
       </p>
-    </form>
     <hr />
     <table id="myTable">
       <thead>
@@ -132,7 +139,7 @@
       </tbody>
   </table>
   <div id="pagination"></div>
-
+  <p id="rowCounter">[Found 0 out of 0 records]</p>
     <script src="table.js"></script>
   </body>
 </html>
