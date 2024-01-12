@@ -2,48 +2,105 @@
 <html>
   <title>Finding the correct K-TAP version for your Linux kernel</title>
   <style>
-        #myTable {
-            border-collapse: collapse;
-            margin-left: 75px;
-            width: 50%;
-            margin-bottom: 20px;
-        }
+    #myTable {
+      border-collapse: collapse;
+      margin-left: 75px;
+      width: 70%;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      font-size: 18px;
+    }
 
-        #myTable th,
-        #myTable td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
+    #myTable thead{
+      background: #4178be;
+      color: white;
+    }
 
-        #pagination {
-            display: flex;
-            margin-left: 75px;
-            width: 50%;
-            align-items: center;
-            margin-top: 10px;
-        }
+    #myTable th,
+    #myTable td {
+      border: 1px solid lightgray;
+      padding: 8px;
+      text-align: left;
+    }
 
-        #pagination button {
-            margin: 4px;
-            padding: 4px;
-            cursor: pointer;
-            width: 50%;
-            align-items: center;
-        }
+    #pagination {
+      display: flex;
+      margin-left: 75px;
+      width: 50%;
+      align-items: center;
+      margin-top: 10px;
+    }
 
-        #pagination button.active {
-            background-color: #0f62fe; /* Green background for the active page */
-            color: white;
-        }
+    #pagination button {
+      padding: 4px;
+      cursor: pointer;
+      width: 50%;
+      align-items: center;
+      color: #4178be;
+      background-color: white;
+      border: 1px solid #dee2e6;
+    }
 
-        #table1, #reset, #content, #rowCounter{
-          margin-left: 75px;
-        }
+    #pagination button.active {
+      background-color: #4178be;
+      color: white;
+    }
 
-        #kernel_string{
-          margin-left: 72.5px;
-        }
+    #table1,
+    #reset,
+    #content,
+    #rowCounter {
+      margin-left: 75px;
+    }
+
+    #kernel_string {
+      margin-left: 86.5px;
+      height: 30px;
+      padding-left: 3px;
+    }
+
+    #emptyTable {
+      width: 60%;
+      margin-left: 75px;
+      color: gray;
+    }
+    #table1 td {
+      padding-top: 10px;
+    }
+
+    #filter_button {
+      background: #0f62fe;
+      color: white;
+      height: 35px;
+      margin-left: 10px;
+      width: 150px;
+      cursor: pointer;
+    }
+
+    #reset {
+      background: rgb(57, 57, 57);
+      color: white;
+      height: 35px;
+      width: 150px;
+      cursor: pointer;
+    }
+
+    #content text, label{
+      font-size: 18px;
+    }
+
+    #table1 select{
+      height: 30px;
+      margin-left: 5px;
+    }
+
+    #rowCounter{
+      color: gray;
+    }
+
+    hr{
+      border: 0.5px solid lightgray;
+    }
   </style>
   <body>
     <div id="content">
@@ -51,91 +108,102 @@
       <text>
         You can use this application to find the appropriate K-TAP version for
         your Linux kernel.
-  
+
         <ul>
           <li>Select the Guardium version</li>
           <li>Select the required operating system</li>
           <li>Optionally enter the kernel version - fully or partially</li>
         </ul>
-  
+
         <p>
-          To locate the Linux kernel version, use the command 'uname -r' in your Linux terminal or console.
+          To locate the Linux kernel version, use the command 'uname -r' in your
+          Linux terminal or console.
         </p>
-  
+
         <p>
           Download the latest K-TAP modules from
-          <a href="https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=IBM%20Security&product=ibm/Information+Management/InfoSphere+Guardium&platform=Linux&function=textSearch&text=KTAP">IBM Fix Central</a>
+          <a
+            href="https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=IBM%20Security&product=ibm/Information+Management/InfoSphere+Guardium&platform=Linux&function=textSearch&text=KTAP"
+            >IBM Fix Central</a
+          >
         </p>
         <p>
-          To report issues with this application, please comment on an issue if it already exists or create a new one 
-          <a href="https://github.com/IBM/guardium-ktap/issues">here</a>
+          To report issues with this application, please comment on an issue if
+          it already exists or create a new one
+          <a href="https://github.com/IBM/guardium-ktap/issues"
+            >here</a
+          >
         </p>
-		
-		</text
-      >
+      </text>
     </div>
 
     <hr />
 
-      <table id="table1">
-        <tr>
-          <td>
-            <label for="kernel_string">Kernel:</label>
-            <input type="text" id="kernel_string" name="kernel_string" placeholder="Enter Kernel"/>
-            <button id="filter_button">Filter Kernel</button>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="version">Guardium version:</label>
-            <select name="version" id="versionDropdown" value="All">
-              <option value="All" selected="selected">All</option>
-              <option value="10.6">10.6</option>
-              <option value="11.3">11.3</option>
-              <option value="11.4">11.4</option>
-              <option value="11.5">11.5</option>
-              <option value="12.0">12.0</option>
-            </select>
-          </td>
-          <td>
-            <label for="os">Operating System:</label>
-            <select name="os" id="osDropdown" value="All">
-              <option value="All" selected="selected">All</option>
-              <option value="RHEL-i686">RHELi686</option>
-              <option value="RHEL-ia64">RHELia64</option>
-              <option value="RHEL-ppc64">RHELppc64</option>
-              <option value="RHEL-x86_64">RHELx86_64</option>
-              <option value="SUSE-i686">SUSEi686</option>
-              <option value="SUSE-ppc64">SUSEppc64</option>
-              <option value="SUSE-x86_64">SUSEx86_64</option>
-              <option value="Ubuntu-x86_64">Ubuntux86_64</option>
-              <option value="zLinux-s390x">zLinuxs390x</option>
-            </select>
-          </td>
-        </tr>
-      </table>
-      <p>
-        <button id="reset" onclick="resetSelection()">Reset Selection</button>
-      </p>
+    <table id="table1">
+      <tr>
+        <td>
+          <label for="kernel_string">Kernel:</label>
+          <input
+            type="text"
+            id="kernel_string"
+            name="kernel_string"
+            placeholder="Enter Kernel"
+          />
+          <button id="filter_button">Filter Kernel</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="version">Guardium version:</label>
+          <select name="version" id="versionDropdown" value="All">
+            <option value="All" selected="selected">All</option>
+            <option value="10.6">10.6</option>
+            <option value="11.3">11.3</option>
+            <option value="11.4">11.4</option>
+            <option value="11.5">11.5</option>
+            <option value="12.0">12.0</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="os">Operating System:</label>
+          <select name="os" id="osDropdown" value="All">
+            <option value="All" selected="selected">All</option>
+            <option value="RHEL-i686">RHELi686</option>
+            <option value="RHEL-ia64">RHELia64</option>
+            <option value="RHEL-ppc64">RHELppc64</option>
+            <option value="RHEL-x86_64">RHELx86_64</option>
+            <option value="SUSE-i686">SUSEi686</option>
+            <option value="SUSE-ppc64">SUSEppc64</option>
+            <option value="SUSE-x86_64">SUSEx86_64</option>
+            <option value="Ubuntu-x86_64">Ubuntux86_64</option>
+            <option value="zLinux-s390x">zLinuxs390x</option>
+          </select>
+        </td>
+      </tr>
+    </table>
+    <p>
+      <button id="reset" onclick="resetSelection()">Reset Selection</button>
+    </p>
     <hr />
     <table id="myTable">
       <thead>
-          <tr>
-              <!-- Table header rows-->
-              <th>Guardium Version</th>
-              <th>Operating System</th>
-              <th>Kernel</th>
-              <th>K-TAP</th>
-              <th>Build Date</th>
-              <th>Match</th>
-          </tr>
+        <tr>
+          <th>Guardium Version</th>
+          <th>Operating System</th>
+          <th>Kernel</th>
+          <th>K-TAP</th>
+          <th>Build Date</th>
+          <th>Match</th>
+        </tr>
       </thead>
       <tbody id="tableBody">
-          <!-- Table body rows-->
       </tbody>
-  </table>
-  <div id="pagination"></div>
-  <p id="rowCounter">[Found 0 out of 0 records]</p>
+    </table>
+    <p id="emptyTable"></p>
+    <div id="pagination"></div>
+    <h4 id="rowCounter">[Found 0 out of 0 records]</h4>
     <script src="table.js"></script>
   </body>
 </html>

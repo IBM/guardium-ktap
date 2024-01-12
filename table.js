@@ -18069,11 +18069,12 @@ var dataArray = data.map((item) => item.split(","));
 
 const itemsPerPage = 10;
 const tableBody = document.getElementById('tableBody');
-const paginationContainer = document.getElementById('pagination');
+const paginationDiv = document.getElementById('pagination');
 let currentPage = 1;
 let filteredDataArray = [];
 document.getElementById("kernel_string").size = "40";
 const rowCounter = document.getElementById('rowCounter');
+const emptyDiv = document.getElementById('emptyTable');
 
 function renderTable(pageNumber) {
 
@@ -18097,16 +18098,16 @@ function renderTable(pageNumber) {
     });
 }
   
-function filterTable(selectedValueOS, selectedValueVersion) {
+function filterTable(selectedValueOS, selectedValueVersion, inputKernelValue) {
     filteredDataArray = [];
     var selectedValueOS1 = selectedValueOS;
     var selectedValueVersion1 = selectedValueVersion;
+    var inputKernelValue1 = inputKernelValue;
 
-
-    if (selectedValueOS1 == 'All' && selectedValueVersion1 == 'All') {
+    if (selectedValueOS1 == 'All' && selectedValueVersion1 == 'All' && inputKernelValue1 == null) {
         filteredDataArray = dataArray; // Show all rows
-    } else if (selectedValueOS1 == 'All' && selectedValueVersion1 != 'All'){
-        // Show all rows of OS but filtered rows of version
+    } else if (selectedValueOS1 == 'All' && selectedValueVersion1 != 'All' && inputKernelValue1 == null){
+        // Show all rows of OS and kernel but filtered rows of version
         for (var i = 0; i < dataArray.length; i++) {
             const categoryValueVersion = dataArray[i][0];
       
@@ -18117,8 +18118,8 @@ function filterTable(selectedValueOS, selectedValueVersion) {
               filteredDataArray.push(dataArray[i]);
             }
           }
-    }  else if (selectedValueOS1 != 'All' && selectedValueVersion1 == 'All'){
-        // Show all rows of version but filtered rows of OS
+    }  else if (selectedValueOS1 != 'All' && selectedValueVersion1 == 'All' && inputKernelValue1 == null){
+        // Show all rows of version and kernel but filtered rows of OS
         for (var j = 0; j < dataArray.length; j++) {
             const categoryValueOS = dataArray[j][1];
       
@@ -18130,8 +18131,8 @@ function filterTable(selectedValueOS, selectedValueVersion) {
             }
           }
     }
-   else {
-        // Show filtered rows for both
+   else if (selectedValueOS1 != 'All' && selectedValueVersion1 != 'All' && inputKernelValue1 == null){
+        // Show filtered rows for version and OS and all for kernel
         for (var k = 0; k < dataArray.length; k++) {
             const categoryValueOS = dataArray[k][1];
             const categoryValueVersion = dataArray[k][0];
@@ -18143,41 +18144,111 @@ function filterTable(selectedValueOS, selectedValueVersion) {
               filteredDataArray.push(dataArray[k]);
             }
           }
-    }   
+    }
+    
+   else if(selectedValueOS1 == 'All' && selectedValueVersion1 == 'All' && inputKernelValue1 != null){
+    // Show filtered rows only for Kernel and all for rest two
+    for (var m = 0; m < dataArray.length; m++) {
+        const categoryValueKernel = dataArray[m][2];
+  
+        if (categoryValueKernel.includes(inputKernelValue1)) {
+          filteredDataArray.push(dataArray[m]);
+        }
+      }
+   } 
+   else if(selectedValueOS1 != 'All' && selectedValueVersion1 == 'All' && inputKernelValue1 != null){
+    // Show filtered rows for Kernel and OS and all of version
+    for (var n = 0; n < dataArray.length; n++) {
+        const categoryValueKernel = dataArray[n][2];
+        const categoryValueOS = dataArray[n][1];
+
+        var compVal4 = categoryValueOS === selectedValueOS1;
+        console.log(compVal4);
+
+        if (compVal4 != 0 && categoryValueKernel.includes(inputKernelValue1)) {
+          filteredDataArray.push(dataArray[n]);
+        }
+      }
+   }
+   else if(selectedValueOS1 == 'All' && selectedValueVersion1 != 'All' && inputKernelValue1 != null){
+    // Show filtered rows for Kernel and Version and all of OS
+    for (var p = 0; p < dataArray.length; p++) {
+        const categoryValueKernel = dataArray[p][2];
+        const categoryValueVersion = dataArray[p][0];
+      
+        var compVal5 = categoryValueVersion === selectedValueVersion1;
+        console.log(compVal5);
+
+        if (compVal5 != 0 && categoryValueKernel.includes(inputKernelValue1)) {
+          filteredDataArray.push(dataArray[p]);
+        }
+      }
+   }
+   else if(selectedValueOS1 != 'All' && selectedValueVersion1 != 'All' && inputKernelValue1 != null){
+    // Show filtered rows for all
+    // filteredDataArray = [];
+    for (var q = 0; q < dataArray.length; q++) {
+        const categoryValueKernel = dataArray[q][2];
+        const categoryValueOS = dataArray[q][1]
+        const categoryValueVersion = dataArray[q][0];
+      
+        var compVal6 = (categoryValueOS == selectedValueOS1) && (categoryValueVersion == selectedValueVersion1);
+        console.log(compVal6);
+
+        if (compVal6 != 0 && categoryValueKernel.includes(inputKernelValue1)) {
+          filteredDataArray.push(dataArray[q]);
+        }
+      }
+   }
+   else{
+    //No match found
+        console.log("No rows found!");
+   }
+
     const updateRowCount = () => {
         rowCounter.textContent = `[Found ${filteredDataArray.length} out of ${dataArray.length} records]`;
     };
         currentPage = 1; // Reset to the first page after filtering
-        renderTable(currentPage);
-        renderPaginationButtons();
+        
+        if(filteredDataArray.length === 0){
+        //No match found
+            console.log("No rows found!");
+            emptyDiv.innerHTML = 
+            "No matching K-TAP module found.  Please check your filters.  If they are correct, please contact Guardium Support with the following information:<br><ul><li>The Guardium S-TAP version</li><li>The Operating System version and architecture</li><li>The output of 'uname -r'</li>";
+        }
+        else{
+            renderTable(currentPage);
+            renderPaginationButtons();
+        }
+        
         updateRowCount();
     }
 
-function filterKernel(input){
+// function filterKernel(input){
 
-    filteredDataArray = [];
-    // Get the input and table elements
-    for (var m = 0; m < dataArray.length; m++) {
-        const categoryValueVersion = dataArray[m][2];
+//     filteredDataArray = [];
+//     // Get the input and table elements
+//     for (var m = 0; m < dataArray.length; m++) {
+//         const categoryValueKernel = dataArray[m][2];
   
-        if (categoryValueVersion.includes(input)) {
-          filteredDataArray.push(dataArray[m]);
-        }
-      }
-      const updateRowCount = () => {
-        rowCounter.textContent = `[Found ${filteredDataArray.length} out of ${dataArray.length} records]`;
-      };
-      currentPage = 1; // Reset to the first page after filtering
-      renderTable(currentPage);
-      renderPaginationButtons();
-      updateRowCount();
-}
+//         if (categoryValueKernel.includes(input)) {
+//           filteredDataArray.push(dataArray[m]);
+//         }
+//       }
+//       const updateRowCount = () => {
+//         rowCounter.textContent = `[Found ${filteredDataArray.length} out of ${dataArray.length} records]`;
+//       };
+//       currentPage = 1; // Reset to the first page after filtering
+//       renderTable(currentPage);
+//       renderPaginationButtons();
+//       updateRowCount();
+// }
 
 function renderPaginationButtons() {
     const pageCount = Math.ceil(filteredDataArray.length / itemsPerPage);
-    const maxPagesToShow = 10;
+    const maxPageButtons = 10;
 
-    paginationContainer.innerHTML = '';
+    paginationDiv.innerHTML = '';
 
     const prevButton = createPageButton('Previous');
     prevButton.addEventListener('click', () => {
@@ -18187,10 +18258,10 @@ function renderPaginationButtons() {
             renderPaginationButtons();
         }
     });
-    paginationContainer.appendChild(prevButton);
+    paginationDiv.appendChild(prevButton);
 
-    const startPage = Math.max(1, currentPage - Math.floor(maxPagesToShow / 2));
-    const endPage = Math.min(startPage + maxPagesToShow - 1, pageCount);
+    const startPage = Math.max(1, currentPage - Math.floor(maxPageButtons / 2));
+    const endPage = Math.min(startPage + maxPageButtons - 1, pageCount);
 
     for (let i = startPage; i <= endPage; i++) {
         const button = createPageButton(i);
@@ -18199,7 +18270,7 @@ function renderPaginationButtons() {
             renderTable(currentPage);
             renderPaginationButtons();
         });
-        paginationContainer.appendChild(button);
+        paginationDiv.appendChild(button);
     }
 
     const nextButton = createPageButton('Next');
@@ -18210,7 +18281,7 @@ function renderPaginationButtons() {
             renderPaginationButtons();
         }
     });
-    paginationContainer.appendChild(nextButton);
+    paginationDiv.appendChild(nextButton);
 }
 
 function createPageButton(label) {
@@ -18248,12 +18319,12 @@ versionDropdown.addEventListener('change', function() {
     window.location.reload();
 });
 
-const inputDropdownKernel = document.getElementById("kernel_string");
+const inputTextboxKernel = document.getElementById("kernel_string");
 const filterButton = document.getElementById('filter_button');
 
 filterButton.addEventListener("click",
 function() {
-    const inputValueKernel = inputDropdownKernel.value;
+    const inputValueKernel = inputTextboxKernel.value;
 
     // Store the selected value in local storage
     localStorage.setItem('inputtedKernelValue', inputValueKernel);
@@ -18276,7 +18347,7 @@ document.addEventListener('DOMContentLoaded', function() {
         selectedValueVersion = 'All';
     }
 
-    if (selectedValueOS || selectedValueVersion) {
+    if (selectedValueOS || selectedValueVersion || inputKernelValue) {
         // Fetch and display data based on the stored value
         var selectedIndexOS = osDropdown.selectedIndex;
         osDropdown.options[selectedIndexOS].text = selectedValueOS;
@@ -18284,12 +18355,14 @@ document.addEventListener('DOMContentLoaded', function() {
         var selectedIndexVersion = osDropdown.selectedIndex;
         versionDropdown.options[selectedIndexVersion].text = selectedValueVersion;
 
-        filterTable(selectedValueOS,selectedValueVersion);
+        if(inputKernelValue != null) inputTextboxKernel.setAttribute("value",inputKernelValue);
+
+        filterTable(selectedValueOS,selectedValueVersion,inputKernelValue);
     }
 
-    if(inputKernelValue != null){
-        filterKernel(inputKernelValue);
-    }
+    // if(inputKernelValue != null){
+    //     filterKernel(inputKernelValue);
+    // }
     
 });
 
