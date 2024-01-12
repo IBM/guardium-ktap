@@ -1,6 +1,7 @@
 
 // Reading the file using default
 const csvContent = 
+// BEGIN-PASTE-HERE
 `12.0,RHEL-x86_64,2.6.32-71.7.1.el6,2.6.32-71.el6.x86_64-x86_64-SMP.ko,2011-08-02,Flex
 12.0,RHEL-x86_64,2.6.32-71.7.1.el6.x86_64,2.6.32-71.el6.x86_64-x86_64-SMP.ko,2013-05-31,Flex
 12.0,RHEL-x86_64,2.6.32-71.14.1.el6,2.6.32-71.el6.x86_64-x86_64-SMP.ko,2011-08-02,Flex
@@ -6015,6 +6016,7 @@ const csvContent =
 11.4,Ubuntu-x86_64,5.4.0-146-generic,5.4.0-146-generic-x86_64-SMP.ko,2023-07-10,Exact
 11.4,Ubuntu-x86_64,5.4.0-148-generic,5.4.0-148-generic-x86_64-SMP.ko,2023-07-10,Exact
 11.4,Ubuntu-x86_64,5.4.0-152-generic,5.4.0-152-generic-x86_64-SMP.ko,2023-07-10,Exact`;
+// END-PASTE-HERE
 
 var data = csvContent.toString().split("\n");
 var dataArray = data.map((item) => item.split(","));
