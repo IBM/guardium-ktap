@@ -1,107 +1,9 @@
 <!DOCTYPE html>
 <html>
   <title>Finding the correct K-TAP version for your Linux kernel</title>
-  <style>
-    #myTable {
-      border-collapse: collapse;
-      margin-left: 75px;
-      width: 70%;
-      margin-bottom: 20px;
-      margin-top: 20px;
-      font-size: 18px;
-    }
-
-    #myTable thead{
-      background: #4178be;
-      color: white;
-    }
-
-    #myTable th,
-    #myTable td {
-      border: 1px solid lightgray;
-      padding: 8px;
-      text-align: left;
-    }
-
-    #pagination {
-      display: flex;
-      margin-left: 75px;
-      width: 50%;
-      align-items: center;
-      margin-top: 10px;
-    }
-
-    #pagination button {
-      padding: 4px;
-      cursor: pointer;
-      width: 50%;
-      align-items: center;
-      color: #4178be;
-      background-color: white;
-      border: 1px solid #dee2e6;
-    }
-
-    #pagination button.active {
-      background-color: #4178be;
-      color: white;
-    }
-
-    #table1,
-    #reset,
-    #content,
-    #rowCounter {
-      margin-left: 75px;
-    }
-
-    #kernel_string {
-      margin-left: 86.5px;
-      height: 30px;
-      padding-left: 3px;
-    }
-
-    #emptyTable {
-      width: 60%;
-      margin-left: 75px;
-      color: gray;
-    }
-    #table1 td {
-      padding-top: 10px;
-    }
-
-    #filter_button {
-      background: #0f62fe;
-      color: white;
-      height: 35px;
-      margin-left: 10px;
-      width: 150px;
-      cursor: pointer;
-    }
-
-    #reset {
-      background: rgb(57, 57, 57);
-      color: white;
-      height: 35px;
-      width: 150px;
-      cursor: pointer;
-    }
-
-    #content text, label{
-      font-size: 18px;
-    }
-
-    #table1 select{
-      height: 30px;
-      margin-left: 5px;
-    }
-
-    #rowCounter{
-      color: gray;
-    }
-
-    hr{
-      border: 0.5px solid lightgray;
-    }
-  </style>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
   <body>
     <div id="content">
       <h1>Matching the K-TAP Version to a Linux Kernel</h1>
@@ -130,9 +32,7 @@
         <p>
           To report issues with this application, please comment on an issue if
           it already exists or create a new one
-          <a href="https://github.com/IBM/guardium-ktap/issues"
-            >here</a
-          >
+          <a href="https://github.com/IBM/guardium-ktap/issues">here</a>
         </p>
       </text>
     </div>
@@ -155,31 +55,13 @@
       <tr>
         <td>
           <label for="version">Guardium version:</label>
-          <select name="version" id="versionDropdown" value="All">
-            <option value="All" selected="selected">All</option>
-            <option value="10.6">10.6</option>
-            <option value="11.3">11.3</option>
-            <option value="11.4">11.4</option>
-            <option value="11.5">11.5</option>
-            <option value="12.0">12.0</option>
-          </select>
+          <select name="version" id="versionDropdown" value="All"></select>
         </td>
       </tr>
       <tr>
         <td>
           <label for="os">Operating System:</label>
-          <select name="os" id="osDropdown" value="All">
-            <option value="All" selected="selected">All</option>
-            <option value="RHEL-i686">RHELi686</option>
-            <option value="RHEL-ia64">RHELia64</option>
-            <option value="RHEL-ppc64">RHELppc64</option>
-            <option value="RHEL-x86_64">RHELx86_64</option>
-            <option value="SUSE-i686">SUSEi686</option>
-            <option value="SUSE-ppc64">SUSEppc64</option>
-            <option value="SUSE-x86_64">SUSEx86_64</option>
-            <option value="Ubuntu-x86_64">Ubuntux86_64</option>
-            <option value="zLinux-s390x">zLinuxs390x</option>
-          </select>
+          <select name="os" id="osDropdown" value="All"></select>
         </td>
       </tr>
     </table>
@@ -198,8 +80,7 @@
           <th>Match</th>
         </tr>
       </thead>
-      <tbody id="tableBody">
-      </tbody>
+      <tbody id="tableBody"></tbody>
     </table>
     <p id="emptyTable"></p>
     <div id="pagination"></div>

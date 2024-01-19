@@ -6030,6 +6030,17 @@ document.getElementById("kernel_string").size = "40";
 const rowCounter = document.getElementById('rowCounter');
 const emptyDiv = document.getElementById('emptyTable');
 
+function populateDropdown(colIndex,dropdownId){
+    const uniqueValues = Array.from(new Set(dataArray.map(row => row[colIndex])));
+    const dropdown = document.getElementById(dropdownId);
+    dropdown.innerHTML = '';
+    uniqueValues.forEach(value => {
+    const option = document.createElement('option');
+    option.text = value;
+    dropdown.add(option);
+    });
+}
+
 function renderTable(pageNumber) {
 
     const start = (pageNumber - 1) * itemsPerPage;
@@ -6178,26 +6189,6 @@ function filterTable(selectedValueOS, selectedValueVersion, inputKernelValue) {
         updateRowCount();
     }
 
-// function filterKernel(input){
-
-//     filteredDataArray = [];
-//     // Get the input and table elements
-//     for (var m = 0; m < dataArray.length; m++) {
-//         const categoryValueKernel = dataArray[m][2];
-  
-//         if (categoryValueKernel.includes(input)) {
-//           filteredDataArray.push(dataArray[m]);
-//         }
-//       }
-//       const updateRowCount = () => {
-//         rowCounter.textContent = `[Found ${filteredDataArray.length} out of ${dataArray.length} records]`;
-//       };
-//       currentPage = 1; // Reset to the first page after filtering
-//       renderTable(currentPage);
-//       renderPaginationButtons();
-//       updateRowCount();
-// }
-
 function renderPaginationButtons() {
     const pageCount = Math.ceil(filteredDataArray.length / itemsPerPage);
     const maxPageButtons = 10;
@@ -6248,6 +6239,11 @@ function createPageButton(label) {
 
     return button;
 }
+
+//Populate dropdowns
+populateDropdown(0,'versionDropdown');
+populateDropdown(1,'osDropdown');
+
 
 //RELOADING THE PAGE USING LOCAL STORAGE UPON SELECTION OF AN OPTION
 const osDropdown = document.getElementById('osDropdown');
@@ -6306,18 +6302,13 @@ document.addEventListener('DOMContentLoaded', function() {
         var selectedIndexOS = osDropdown.selectedIndex;
         osDropdown.options[selectedIndexOS].text = selectedValueOS;
 
-        var selectedIndexVersion = osDropdown.selectedIndex;
+        var selectedIndexVersion = versionDropdown.selectedIndex;
         versionDropdown.options[selectedIndexVersion].text = selectedValueVersion;
 
         if(inputKernelValue != null) inputTextboxKernel.setAttribute("value",inputKernelValue);
 
         filterTable(selectedValueOS,selectedValueVersion,inputKernelValue);
     }
-
-    // if(inputKernelValue != null){
-    //     filterKernel(inputKernelValue);
-    // }
-    
 });
 
 function resetSelection(){
