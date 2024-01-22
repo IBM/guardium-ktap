@@ -1,0 +1,99 @@
+  #myTable {
+    border-collapse: collapse;
+    margin-left: 75px;
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  #myTable thead{
+    background: #4178be;
+    color: white;
+  }
+
+  #myTable th,
+  #myTable td {
+    border: 1px solid lightgray;
+    padding: 8px;
+    text-align: left;
+  }
+
+  #pagination {
+    display: flex;
+    margin-left: 75px;
+    width: 50%;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  #pagination button {
+    padding: 4px;
+    cursor: pointer;
+    width: 50%;
+    align-items: center;
+    color: #4178be;
+    background-color: white;
+    border: 1px solid #dee2e6;
+  }
+
+  #pagination button.active {
+    background-color: #4178be;
+    color: white;
+  }
+
+  #table1,
+  #reset,
+  #content,
+  #rowCounter {
+    margin-left: 75px;
+  }
+
+  #kernel_string {
+    margin-left: 86.5px;
+    height: 30px;
+    padding-left: 3px;
+  }
+
+  #emptyTable {
+    width: 60%;
+    margin-left: 75px;
+    color: gray;
+  }
+  #table1 td {
+    padding-top: 10px;
+  }
+
+  #filter_button {
+    background: #0f62fe;
+    color: white;
+    height: 35px;
+    margin-left: 10px;
+    width: 150px;
+    cursor: pointer;
+  }
+
+  #reset {
+    background: rgb(57, 57, 57);
+    color: white;
+    height: 35px;
+    width: 150px;
+    cursor: pointer;
+  }
+
+  #content text, label{
+    font-size: 18px;
+  }
+
+  #table1 select{
+    height: 30px;
+    margin-left: 5px;
+  }
+
+  #rowCounter{
+    color: gray;
+  }
+
+  hr{
+    border: 0.5px solid lightgray;
+  }
