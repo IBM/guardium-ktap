@@ -6034,6 +6034,9 @@ function populateDropdown(colIndex,dropdownId){
     const uniqueValues = Array.from(new Set(dataArray.map(row => row[colIndex])));
     const dropdown = document.getElementById(dropdownId);
     dropdown.innerHTML = '';
+    const option1 = document.createElement('option');
+    option1.text = "All";
+    dropdown.add(option1,0);
     uniqueValues.forEach(value => {
     const option = document.createElement('option');
     option.text = value;
