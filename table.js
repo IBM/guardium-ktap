@@ -1,6 +1,6 @@
 
 // Reading the file using default
-// Updated 05-Dec-2024
+// Updated 13-Dec-2024
 
 const csvContent =
 // BEGIN-PASTE-HERE
@@ -4084,6 +4084,8 @@ const csvContent =
 11.5,RHEL-ppc64,4.18.0-348.2.1.el8_5.ppc64le,4.18.0-348.2.1.el8_5.ppc64le-ppc64le-SMP.ko,2024-04-26,Exact
 11.5,RHEL-ppc64,4.18.0-348.el8.ppc64le,4.18.0-348.el8.ppc64le-ppc64le-SMP.ko,2024-04-26,Exact
 11.5,RHEL-ppc64,4.18.0-477.10.1.el8_8.ppc64le,4.18.0-477.10.1.el8_8.ppc64le-ppc64le-SMP.ko,2024-08-07,Exact
+11.5,RHEL-ppc64,4.18.0-553.16.1.el8_10.ppc64le,4.18.0-553.16.1.el8_10.ppc64le-ppc64le-SMP.ko,2024-12-11,Exact
+11.5,RHEL-ppc64,4.18.0-553.el8_10.ppc64le,4.18.0-553.el8_10.ppc64le-ppc64le-SMP.ko,2024-12-11,Exact
 11.5,RHEL-ppc64,5.14.0-70.13.1.el9_0.ppc64le,5.14.0-70.13.1.el9_0.ppc64le-ppc64le-SMP.ko,2024-04-26,Exact
 11.5,RHEL-ppc64,5.14.0-70.30.1.el9_0.ppc64le,5.14.0-70.30.1.el9_0.ppc64le-ppc64le-SMP.ko,2024-04-26,Exact
 11.5,SUSE-x86_64,2.6.27.19-5-debug,2.6.27.19-5-debug-x86_64-SMP.ko,2024-04-26,Exact
@@ -4331,6 +4333,7 @@ const csvContent =
 11.5,SUSE-x86_64,5.14.21-150400.24.108-default,5.14.21-150400.24.66-default-x86_64-SMP.ko,2024-03-31,Flex
 11.5,SUSE-x86_64,5.14.21-150400.24.125-default,5.14.21-150400.24.125-default-x86_64-SMP.ko,2024-09-27,Exact
 11.5,SUSE-x86_64,5.14.21-150400.24.128-default,5.14.21-150400.24.128-default-x86_64-SMP.ko,2024-09-09,Exact
+11.5,SUSE-x86_64,5.14.21-150400.24.136-default,5.14.21-150400.24.128-default-x86_64-SMP.ko,2024-12-10,Flex
 11.5,SUSE-x86_64,5.14.21-150500.55.31-default,5.14.21-150500.55.31-default-x86_64-SMP.ko,2024-04-26,Exact
 11.5,SUSE-x86_64,5.14.21-150500.55.36-default,5.14.21-150500.55.36-default-x86_64-SMP.ko,2024-09-19,Exact
 11.5,SUSE-x86_64,5.14.21-150500.55.39-default,5.14.21-150500.55.39-default-x86_64-SMP.ko,2024-04-26,Exact
