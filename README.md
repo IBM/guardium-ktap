@@ -1,2 +1,2 @@
 # guardium-ktap
-Guardium GDP KTAP modules match
+Guardium KTAP modules match
