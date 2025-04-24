@@ -1,4 +1,4 @@
-// Updated 2025-04-23
+// Updated 2025-04-24
 const csvContent =
 // BEGIN-PASTE-HERE
 `10.6,RHEL-x86_64,2.6.32-71.7.1.el6,2.6.32-71.el6.x86_64-x86_64-SMP.ko,2011-08-02,Flex
@@ -6737,7 +6737,6 @@ const csvContent =
 12.1,RHEL-ppc64,4.18.0-477.27.1.el8_8.ppc64le,4.18.0-477.27.1.el8_8.ppc64le-ppc64le-SMP.ko,2025-02-21,Exact
 12.1,RHEL-ppc64,4.18.0-513.11.1.el8_9.ppc64le,4.18.0-513.11.1.el8_9.ppc64le-ppc64le-SMP.ko,2025-02-21,Exact
 12.1,RHEL-ppc64,4.18.0-513.24.1.el8_9.ppc64le,4.18.0-513.24.1.el8_9.ppc64le-ppc64le-SMP.ko,2025-02-21,Exact
-12.1,RHEL-ppc64,4.18.0-553.5.1.el8_10.ppc64le,4.18.0-553.5.1.el8_10.ppc64le-ppc64le-SMP.ko,2025-04-09,Exact
 12.1,RHEL-ppc64,4.18.0-553.16.1.el8_10.ppc64le,4.18.0-553.16.1.el8_10.ppc64le-ppc64le-SMP.ko,2025-02-21,Exact
 12.1,RHEL-ppc64,4.18.0-553.32.1.el8_10.ppc64le,4.18.0-553.32.1.el8_10.ppc64le-ppc64le-SMP.ko,2025-02-21,Exact
 12.1,RHEL-ppc64,4.18.0-553.34.1.el8_10.ppc64le,4.18.0-553.34.1.el8_10.ppc64le-ppc64le-SMP.ko,2025-02-21,Exact
