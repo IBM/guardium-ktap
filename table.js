@@ -1,4 +1,4 @@
-// Updated 2025-05-31
+// Updated 2025-06-05
 const csvContent =
 // BEGIN-PASTE-HERE
 `10.6,RHEL-x86_64,2.6.32-71.7.1.el6,2.6.32-71.el6.x86_64-x86_64-SMP.ko,2011-08-02,Flex
@@ -6598,6 +6598,7 @@ const csvContent =
 12.1,SUSE-x86_64,3.12.69-60.64.29-default,3.12.69-60.64.29-default-x86_64-SMP.ko,2025-02-21,Exact
 12.1,SUSE-x86_64,3.12.74-60.64.40-default,3.12.74-60.64.40-default-x86_64-SMP.ko,2025-02-21,Exact
 12.1,SUSE-x86_64,3.12.74-60.64.118-default,3.12.74-60.64.118-default-x86_64-SMP.ko,2025-02-21,Exact
+12.1,SUSE-x86_64,4.4.21-69-default,4.4.21-69-default-x86_64-SMP.ko,2025-06-04,Exact
 12.1,SUSE-x86_64,4.4.73-5-default,4.4.73-5-default-x86_64-SMP.ko,2025-02-21,Exact
 12.1,SUSE-x86_64,4.4.90-92.50-default,4.4.90-92.50-default-x86_64-SMP.ko,2025-02-21,Exact
 12.1,SUSE-x86_64,4.4.114-92.67-default,4.4.114-92.67-default-x86_64-SMP.ko,2025-02-21,Exact
