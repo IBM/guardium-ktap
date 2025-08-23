@@ -1,4 +1,4 @@
-// Updated 2025-08-21
+// Updated 2025-08-23
 const csvContent =
 // BEGIN-PASTE-HERE
 `10.6,RHEL-x86_64,2.6.32-71.7.1.el6,2.6.32-71.el6.x86_64-x86_64-SMP.ko,2011-08-02,Flex
@@ -4438,6 +4438,7 @@ const csvContent =
 11.5,RHEL-x86_64,5.15.0-309.180.4.el9uek.x86_64,5.15.0-309.180.4.el9uek.x86_64-x86_64-SMP.ko,2025-07-23,Exact
 11.5,RHEL-x86_64,5.15.0-310.184.5.2.el8uek.x86_64,5.15.0-310.184.5.2.el8uek.x86_64-x86_64-SMP.ko,2025-07-23,Exact
 11.5,RHEL-x86_64,5.15.0-310.184.5.3.el8uek.x86_64,5.15.0-310.184.5.2.el8uek.x86_64-x86_64-SMP.ko,2025-08-06,Flex
+11.5,RHEL-x86_64,5.15.0-311.185.9.el8uek.x86_64,5.15.0-311.185.9.el8uek.x86_64-x86_64-SMP.ko,2025-08-20,Exact
 11.5,RHEL-ppc64,3.10.0-229.20.1.ael7b.ppc64le,3.10.0-229.20.1.ael7b.ppc64le-ppc64le-SMP.ko,2025-07-23,Exact
 11.5,RHEL-ppc64,3.10.0-229.ael7b.ppc64le,3.10.0-229.ael7b.ppc64le-ppc64le-SMP.ko,2025-07-23,Exact
 11.5,RHEL-ppc64,3.10.0-229.el7.ppc64,3.10.0-229.el7.ppc64-ppc64-SMP.ko,2025-07-23,Exact
@@ -4451,6 +4452,7 @@ const csvContent =
 11.5,RHEL-ppc64,3.10.0-514.41.1.el7.ppc64le,3.10.0-514.41.1.el7.ppc64le-ppc64le-SMP.ko,2025-07-23,Exact
 11.5,RHEL-ppc64,3.10.0-514.41.1.el7.ppc64,3.10.0-514.41.1.el7.ppc64-ppc64-SMP.ko,2025-07-23,Exact
 11.5,RHEL-ppc64,3.10.0-514.el7.ppc64le,3.10.0-514.el7.ppc64le-ppc64le-SMP.ko,2025-07-23,Exact
+11.5,RHEL-ppc64,3.10.0-514.el7.ppc64,3.10.0-514.el7.ppc64-ppc64-SMP.ko,2025-08-21,Exact
 11.5,RHEL-ppc64,3.10.0-693.11.6.el7.ppc64le,3.10.0-693.11.6.el7.ppc64le-ppc64le-SMP.ko,2025-07-23,Exact
 11.5,RHEL-ppc64,3.10.0-693.11.6.el7.ppc64,3.10.0-693.11.6.el7.ppc64-ppc64-SMP.ko,2025-07-23,Exact
 11.5,RHEL-ppc64,3.10.0-693.17.1.el7.ppc64le,3.10.0-693.17.1.el7.ppc64le-ppc64le-SMP.ko,2025-07-23,Exact
@@ -4811,6 +4813,7 @@ const csvContent =
 11.5,zLinux-s390x,4.18.0-477.10.1.el8_8.s390x,4.18.0-477.10.1.el8_8.s390x-s390x-SMP.ko,2025-07-23,Exact
 11.5,zLinux-s390x,4.18.0-477.13.1.el8_8.s390x,4.18.0-477.13.1.el8_8.s390x-s390x-SMP.ko,2025-07-23,Exact
 11.5,zLinux-s390x,4.18.0-477.27.1.el8_8.s390x,4.18.0-477.27.1.el8_8.s390x-s390x-SMP.ko,2025-07-23,Exact
+11.5,zLinux-s390x,4.18.0-513.5.1.el8_9.s390x,4.18.0-513.5.1.el8_9.s390x-s390x-SMP.ko,2025-08-20,Exact
 11.5,zLinux-s390x,4.18.0-513.24.1.el8_9.s390x,4.18.0-513.24.1.el8_9.s390x-s390x-SMP.ko,2025-07-23,Exact
 11.5,zLinux-s390x,4.18.0-553.8.1.el8_10.s390x,4.18.0-553.8.1.el8_10.s390x-s390x-SMP.ko,2025-07-23,Exact
 11.5,zLinux-s390x,4.18.0-553.16.1.el8_10.s390x,4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko,2025-07-23,Exact
