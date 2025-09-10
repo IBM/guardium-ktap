@@ -1,4 +1,4 @@
-// Updated 2025-09-09
+// Updated 2025-09-10
 const csvContent =
 // BEGIN-PASTE-HERE
 `10.6,RHEL-x86_64,2.6.32-71.7.1.el6,2.6.32-71.el6.x86_64-x86_64-SMP.ko,2011-08-02,Flex
@@ -7010,6 +7010,7 @@ const csvContent =
 12.1,SUSE-x86_64,5.3.18-150300.59.90-default,5.3.18-150300.59.90-default-x86_64-SMP.ko,2025-06-10,Exact
 12.1,SUSE-x86_64,5.3.18-150300.59.93-default,5.3.18-150300.59.93-default-x86_64-SMP.ko,2025-06-10,Exact
 12.1,SUSE-x86_64,5.3.18-150300.59.161-default,5.3.18-150300.59.161-default-x86_64-SMP.ko,2025-06-10,Exact
+12.1,SUSE-x86_64,5.4.0-1109-azure,5.4.0-1109-azure-x86_64-SMP.ko,2025-09-08,Exact
 12.1,SUSE-x86_64,5.10.0-8-amd64,5.10.0-8-amd64-x86_64-SMP.ko,2025-06-04,Exact
 12.1,SUSE-x86_64,5.10.0-9-amd64,5.10.0-9-amd64-x86_64-SMP.ko,2025-06-04,Exact
 12.1,SUSE-x86_64,5.10.0-13-amd64,5.10.0-13-amd64-x86_64-SMP.ko,2025-06-10,Exact
@@ -7236,6 +7237,7 @@ const csvContent =
 12.1,zLinux-s390x,5.15.0-37-generic,5.15.0-37-generic-s390x-SMP.ko,2025-06-10,Exact
 12.1,zLinux-s390x,5.15.0-72-generic,5.15.0-72-generic-s390x-SMP.ko,2025-06-10,Exact
 12.1,zLinux-s390x,6.4.0-150600.21-default,6.4.0-150600.21-default-s390x-SMP.ko,2025-06-10,Exact
+12.1,zLinux-s390x,6.4.0-150600.23.7-default,6.4.0-150600.23.7-default-s390x-SMP.ko,2025-09-06,Exact
 12.1,zLinux-s390x,6.4.0-150600.23.30-default,6.4.0-150600.23.30-default-s390x-SMP.ko,2025-06-10,Exact
 12.1,zLinux-s390x,6.8.0-31-generic,6.8.0-31-generic-s390x-SMP.ko,2025-06-10,Exact
 12.1,zLinux-s390x,6.8.0-44-generic,6.8.0-44-generic-s390x-SMP.ko,2025-06-10,Exact
