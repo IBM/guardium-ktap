@@ -1,99 +1,556 @@
-  #myTable {
-    border-collapse: collapse;
-    margin-left: 75px;
-    width: 70%;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-size: 18px;
-  }
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-  #myTable thead{
-    background: #4178be;
-    color: white;
-  }
+body {
+    font-family: 'Calibri', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
 
-  #myTable th,
-  #myTable td {
-    border: 1px solid lightgray;
-    padding: 8px;
-    text-align: left;
-  }
-
-  #pagination {
-    display: flex;
-    margin-left: 75px;
-    width: 50%;
-    align-items: center;
-    margin-top: 10px;
-  }
-
-  #pagination button {
-    padding: 4px;
-    cursor: pointer;
-    width: 50%;
-    align-items: center;
-    color: #4178be;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
     background-color: white;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* PART 1: Header Section Styles */
+.header-section {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.header-section h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+/* Collapsible Section Styles */
+.collapsible-section {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.section-toggle-btn {
+    width: 100%;
+    background-color: #f8f9fa;
     border: 1px solid #dee2e6;
-  }
-
-  #pagination button.active {
-    background-color: #4178be;
-    color: white;
-  }
-
-  #table1,
-  #reset,
-  #content,
-  #rowCounter {
-    margin-left: 75px;
-  }
-
-  #kernel_string {
-    margin-left: 86.5px;
-    height: 30px;
-    padding-left: 3px;
-  }
-
-  #emptyTable {
-    width: 60%;
-    margin-left: 75px;
-    color: gray;
-  }
-  #table1 td {
-    padding-top: 10px;
-  }
-
-  #filter_button {
-    background: #0f62fe;
-    color: white;
-    height: 35px;
-    margin-left: 10px;
-    width: 150px;
+    border-radius: 6px;
+    padding: 12px 15px;
     cursor: pointer;
-  }
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+    transition: all 0.3s ease;
+    color: #000;
+    font-size: 16px;
+}
 
-  #reset {
-    background: rgb(57, 57, 57);
-    color: white;
-    height: 35px;
-    width: 150px;
-    cursor: pointer;
-  }
+.section-title-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
 
-  #content text, label{
+.section-toggle-btn:hover {
+    background-color: #e9ecef;
+    border-color: #0066cc;
+}
+
+.section-toggle-icon {
+    font-size: 14px;
+    color: #0066cc;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    min-width: 14px;
+}
+
+.section-toggle-btn[aria-expanded="false"] .section-toggle-icon {
+    transform: rotate(-90deg);
+}
+
+.section-collapsible-content {
+    max-height: 2000px;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 1;
+    margin-top: 15px;
+}
+
+.section-collapsible-content.collapsed {
+    max-height: 0;
+    opacity: 0;
+    margin-top: 0;
+}
+
+.intro-text {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.section-title {
     font-size: 18px;
-  }
+    font-weight: 600;
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+}
 
-  #table1 select{
-    height: 30px;
-    margin-left: 5px;
-  }
+.section-title:first-of-type {
+    margin-top: 25px;
+}
 
-  #rowCounter{
-    color: gray;
-  }
+.instructions {
+    list-style-position: outside;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    background-color: #f8f9fa;
+    padding: 20px 20px 20px 45px;
+    border-radius: 6px;
+    border-left: 4px solid #0066cc;
+}
 
-  hr{
-    border: 0.5px solid lightgray;
-  }
+.instructions li {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.instructions li strong {
+    color: #000;
+    font-weight: 700;
+}
+
+.kernel-info,
+.download-info,
+.support-info {
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.support-info {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    font-style: italic;
+    color: #666;
+}
+
+code {
+    background-color: #f0f0f0;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: #d63384;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* PART 2: Form Section Styles */
+.form-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 4px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.form-group label {
+    font-weight: 600;
+    min-width: 180px;
+    font-size: 16px;
+}
+
+.form-group input[type="text"],
+.form-group select {
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 400px;
+}
+
+.form-group input[type="text"]:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+}
+
+.form-actions {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #0066cc;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0052a3;
+}
+
+.btn-secondary {
+    background-color: #333;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #1a1a1a;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* PART 3: Results Section Styles */
+.results-section {
+    margin-top: 30px;
+}
+
+.loading,
+.no-results {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    color: #666;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.results-table thead {
+    background-color: #4472c4;
+    color: white;
+}
+
+.results-table th {
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+    border: 1px solid #3461b3;
+}
+
+.results-table td {
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+}
+
+.results-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.results-table tbody tr:hover {
+    background-color: #e8f0fe;
+}
+
+/* Match Type Badges */
+.match-exact {
+    background-color: #28a745;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.match-flex {
+    background-color: #ffc107;
+    color: #333;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.match-exact-like {
+    background-color: #17a2b8;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.match-available {
+    background-color: #6c757d;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.match-no-match {
+    background-color: #dc3545;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.match-other {
+    background-color: #6c757d;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.match-browse {
+    background-color: #6c757d;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/* Mapped kernel info */
+.mapped-info {
+    color: #666;
+    font-size: 11px;
+    font-style: italic;
+}
+
+/* Package info banner */
+.info-banner {
+    background-color: #e7f3ff;
+    border-left: 4px solid #0066cc;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Error box */
+.error-box {
+    background-color: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.error-box h3 {
+    color: #856404;
+    margin-bottom: 15px;
+}
+
+.error-box p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.error-box .warning-message {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+.error-box .btn {
+    margin-top: 15px;
+}
+
+/* Notification */
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    animation: slideIn 0.3s ease-out;
+}
+
+.notification-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+}
+
+.notification-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.notification-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Package name cell */
+.package-name {
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    word-break: break-all;
+}
+
+/* Pagination Styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+
+.pagination button {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.pagination button:hover:not(:disabled) {
+    background-color: #0066cc;
+    color: white;
+    border-color: #0066cc;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.pagination .page-info {
+    font-size: 14px;
+    color: #666;
+}
+
+/* KTAP module cell */
+.ktap-module {
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    color: #0066cc;
+    word-break: break-all;
+    display: block;
+}
+
+.no-module {
+    color: #999;
+    font-style: italic;
+    font-size: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    
+    .header-section h1 {
+        font-size: 24px;
+    }
+    
+    .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .form-group label {
+        min-width: auto;
+    }
+    
+    .form-group input[type="text"],
+    .form-group select {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .form-actions {
+        flex-direction: column;
+    }
+    
+    .form-actions .btn {
+        width: 100%;
+    }
+    
+    .results-table {
+        font-size: 12px;
+    }
+    
+    .results-table th,
+    .results-table td {
+        padding: 8px;
+    }
+}
+
+/* Made with Bob */

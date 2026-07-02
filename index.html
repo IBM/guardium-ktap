@@ -1,92 +1,125 @@
 <!DOCTYPE html>
-<html>
-  <title>Finding the correct K-TAP version for your Linux kernel</title>
-  <head>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
-  <body>
-    <div id="content">
-      <h1>Matching the K-TAP Version to a Linux Kernel</h1>
-      <text>
-        You can use this application to find the appropriate K-TAP version for
-        your Linux kernel.
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-TAP Bundler Finder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- PART 1: Header Section -->
+        <header class="header-section">
+            <h1>K-TAP Bundler Finder</h1>
+            
+            <p class="intro-text">
+                Use this tool to identify the appropriate K-TAP bundler for your environment, available on IBM Fix Central.
+                These installers are released outside the standard general release cycle and are built on a per-request basis
+                in response to individual customer KTAP module requests.
+            </p>
+            
+            <!-- How to use section -->
+            <div class="collapsible-section">
+                <button class="section-toggle-btn" data-target="how-to-use-content" aria-expanded="true">
+                    <span class="section-toggle-icon">▼</span>
+                    <span class="section-title-text">How to Use</span>
+                </button>
+                <div id="how-to-use-content" class="section-collapsible-content">
+                    <ul class="instructions">
+                        <li>Select your Guardium version</li>
+                        <li>Select your operating system</li>
+                        <li>Optionally, enter your kernel version (to find it, run <code>uname -r</code> in your Linux terminal)</li>
+                        <li>Download the matching K-TAP module bundler from <a href="https://www.ibm.com/support/fixcentral/" target="_blank">IBM Fix Central</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Match Type section -->
+            <div class="collapsible-section">
+                <button class="section-toggle-btn" data-target="match-type-content" aria-expanded="true">
+                    <span class="section-toggle-icon">▼</span>
+                    <span class="section-title-text">How to Understand Match Type "EXACT" and "EXACT LIKE"</span>
+                </button>
+                <div id="match-type-content" class="section-collapsible-content">
+                    <p class="intro-text">
+                        After entering the OS kernel (uname -r), Guardium version, and operating system, the tool displays the kernel match type as either "EXACT" or "EXACT LIKE", if found.
+                    </p>
+                    <ul class="instructions">
+                        <li><strong>EXACT</strong> — The exact kernel module is available.</li>
+                        <li><strong>EXACT LIKE</strong> — The exact module is unavailable, but a compatible module listed in ktap-combos.txt can be used and is treated the same as "EXACT", so no kernel request is required.</li>
+                    </ul>
+                    <p class="intro-text">
+                        If neither match is found, use the tool to display all kernels available for the selected Guardium version and platform. Only kernels with "EXACT" matches from the latest KTAP bundle on Fix Central will be displayed.
+                    </p>
+                    <p class="intro-text">
+                        If a lower version from the same kernel family is available (for example, X.Y.Z-A.1 for requested kernel X.Y.Z-A.5), you may enable Flex-Load to test compatibility by using --ktap_allow_module_combos for shell installation or KTAP_ALLOW_MODULE_COMBOS=Y through GIM.
+                    </p>
+                </div>
+            </div>
+            
+            <p class="support-info">
+                For additional assistance, open a ticket with IBM Support.
+            </p>
+        </header>
 
-        <ul>
-          <li>Select the Guardium version</li>
-          <li>Select the required operating system</li>
-          <li>Optionally enter the kernel version - fully or partially</li>
-        </ul>
+        <!-- PART 2: Input Form Section (to be implemented) -->
+        <section class="form-section">
+            <div class="form-group">
+                <label for="kernel-input">Kernel:</label>
+                <input type="text" id="kernel-input" placeholder="Enter Kernel" />
+                <button id="filter-btn" class="btn btn-primary">Filter Kernel</button>
+            </div>
+            
+            <div class="form-group">
+                <label for="guardium-version">Guardium version:</label>
+                <select id="guardium-version">
+                    <option value="">Loading...</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="operating-system">Operating System:</label>
+                <select id="operating-system">
+                    <option value="">Loading...</option>
+                </select>
+            </div>
+            
+            <div class="form-actions">
+                <button id="reset-btn" class="btn btn-secondary">Reset Selection</button>
+                <button id="export-csv-btn" class="btn btn-success">Export to CSV</button>
+            </div>
+        </section>
 
-        <p>
-          To locate the Linux kernel version, use the command 'uname -r' in your
-          Linux terminal or console.
-        </p>
-
-        <p>
-          Download the latest K-TAP modules from
-          <a
-            href="https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=IBM%20Security&product=ibm/Information+Management/InfoSphere+Guardium&platform=Linux&function=textSearch&text=KTAP"
-            >IBM Fix Central</a
-          >
-        </p>
-        <p>
-          To report issues with this application, please comment on an issue if
-          it already exists or create a new one
-          <a href="https://github.com/IBM/guardium-ktap/issues">here</a>.<br>
-		  Please follow the standard support process for KTAP module requests 
-		  and KTAP module issues.
-        </p>
-      </text>
+        <!-- PART 3: Results Table Section (to be implemented) -->
+        <section class="results-section">
+            <div id="loading" class="loading" style="display: none;">Loading...</div>
+            <div id="no-results" class="no-results" style="display: none;">No results found</div>
+            
+            <div id="results-container" style="display: none;">
+                <table id="results-table" class="results-table">
+                    <thead>
+                        <tr>
+                            <th>Guardium Version</th>
+                            <th>Stap Revision</th>
+                            <th>Operating Platform</th>
+                            <th>Kernel</th>
+                            <th>Match Type</th>
+                            <th>KTAP Module</th>
+                        </tr>
+                    </thead>
+                    <tbody id="results-body">
+                        <!-- Results will be populated here -->
+                    </tbody>
+                </table>
+                
+                <!-- Pagination -->
+                <div id="pagination" class="pagination">
+                    <!-- Pagination controls will be added here -->
+                </div>
+            </div>
+        </section>
     </div>
 
-    <hr />
-
-    <table id="table1">
-      <tr>
-        <td>
-          <label for="kernel_string">Kernel:</label>
-          <input
-            type="text"
-            id="kernel_string"
-            name="kernel_string"
-            placeholder="Enter Kernel"
-          />
-          <button id="filter_button">Filter Kernel</button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <label for="version">Guardium version:</label>
-          <select name="version" id="versionDropdown" value="All"></select>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <label for="os">Operating System:</label>
-          <select name="os" id="osDropdown" value="All"></select>
-        </td>
-      </tr>
-    </table>
-    <p>
-      <button id="reset" onclick="resetSelection()">Reset Selection</button>
-    </p>
-    <hr />
-    <table id="myTable">
-      <thead>
-        <tr>
-          <th>Guardium Version</th>
-          <th>Operating System</th>
-          <th>Kernel</th>
-          <th>K-TAP</th>
-          <th>Build Date</th>
-          <th>Match</th>
-        </tr>
-      </thead>
-      <tbody id="tableBody"></tbody>
-    </table>
-    <p id="emptyTable"></p>
-    <div id="pagination"></div>
-    <h4 id="rowCounter">[Found 0 out of 0 records]</h4>
-    <script src="table.js"></script>
-  </body>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
 </html>
