@@ -107,7 +107,7 @@ async function loadFilterOptions() {
     try {
 
         const response =
-            await fetch('/static/packages.json');
+            await fetch('./packages.json');
 
         const data =
             await response.json();
