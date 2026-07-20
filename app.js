@@ -133,7 +133,7 @@ async function loadFilterOptions() {
             .sort();
 
         guardiumVersionSelect.innerHTML =
-            '<option value="">Select Version</option>';
+            '<option value="">Select Guardium Version</option>';
 
         versions.forEach(version => {
 
