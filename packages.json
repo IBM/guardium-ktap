@@ -67152,8 +67152,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-147.el8.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67163,8 +67163,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-305.el8.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67174,8 +67174,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-348.2.1.el8_5.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67185,8 +67185,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-372.32.1.el8_6.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67196,8 +67196,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-425.19.2.el8_7.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67207,8 +67207,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-477.10.1.el8_8.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67218,8 +67218,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-477.13.1.el8_8.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67229,8 +67229,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-477.27.1.el8_8.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67240,8 +67240,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-513.24.1.el8_9.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67251,8 +67251,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-513.5.1.el8_9.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67262,8 +67262,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67273,8 +67273,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.8.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67284,8 +67284,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67295,8 +67295,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-80.el8.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67306,8 +67306,19 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.146.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-8-linux-s390x",
+      "kernel": "4.18.0-553.64.1.el8_10.s390x",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.64.1.el8_10.s390x-s390x-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67317,8 +67328,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.80.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67328,8 +67339,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67339,8 +67350,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.94.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67350,8 +67361,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-305.el8.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-305.el8.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67361,8 +67372,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-305.el8.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-305.el8.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67372,8 +67383,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67383,8 +67394,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67394,8 +67405,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67405,8 +67416,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67416,8 +67427,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67427,8 +67438,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67438,8 +67449,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67449,8 +67460,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67460,8 +67471,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67471,8 +67482,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67482,8 +67493,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67493,8 +67504,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67504,8 +67515,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67515,8 +67526,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67526,8 +67537,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67537,8 +67548,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67548,8 +67559,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67559,8 +67570,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67570,8 +67581,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67581,8 +67592,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-305.el8.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-305.el8.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67592,8 +67603,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-305.el8.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-305.el8.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67603,8 +67614,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-305.el8.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-305.el8.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67614,8 +67625,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-305.el8.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-305.el8.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67625,8 +67636,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-305.el8.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-305.el8.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67636,8 +67647,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-348.2.1.el8_5.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-348.2.1.el8_5.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67647,8 +67658,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-372.32.1.el8_6.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-372.32.1.el8_6.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67658,8 +67669,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-372.32.1.el8_6.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-372.32.1.el8_6.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67669,8 +67680,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-477.13.1.el8_8.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-477.13.1.el8_8.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67680,8 +67691,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-513.5.1.el8_9.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-513.5.1.el8_9.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67691,8 +67702,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-513.5.1.el8_9.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-513.5.1.el8_9.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67702,8 +67713,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-513.5.1.el8_9.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-513.5.1.el8_9.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67713,8 +67724,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67724,8 +67735,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67735,8 +67746,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67746,8 +67757,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67757,8 +67768,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8s390m-4.18.0-553.16.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.16.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67768,8 +67779,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67779,8 +67790,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67790,8 +67801,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67801,8 +67812,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67812,8 +67823,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67823,8 +67834,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67834,8 +67845,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67845,8 +67856,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67856,8 +67867,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67867,8 +67878,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67878,8 +67889,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67889,8 +67900,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67900,8 +67911,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67911,8 +67922,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67922,8 +67933,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67933,8 +67944,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
       "guardium_version": "12.2.2",
@@ -67944,8 +67955,8 @@
       "match_type": "EXACT-LIKE",
       "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh8u10s390m200-4.18.0-553.89.1.el8_10.s390x-s390x-SMP.ko",
       "mapped_from_kernel": "4.18.0-553.89.1.el8_10.s390x",
-      "publish_date": "2026-07-30",
-      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-30.zip"
+      "publish_date": "2026-07-31",
+      "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     }
   ]
 }
