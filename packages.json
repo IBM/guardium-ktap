@@ -20461,72 +20461,6 @@
       "package_name": "Guardium_KTAP_12.1_amzn-2023-linux-x86-64_r123502_2026-05-22.zip"
     },
     {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "rhel-10-linux-x86-64",
-      "kernel": "6.12.0-124.47.1.el10_1.x86_64",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10u1x64m-6.12.0-124.47.1.el10_1.x86_64-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-05-20",
-      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-05-20.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "rhel-10-linux-x86-64",
-      "kernel": "6.12.0-55.12.1.el10_0.x86_64",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.12.1.el10_0.x86_64-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-05-20",
-      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-05-20.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "rhel-10-linux-x86-64",
-      "kernel": "6.12.0-55.21.1.el10_0.x86_64",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.21.1.el10_0.x86_64-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-05-20",
-      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-05-20.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "rhel-10-linux-x86-64",
-      "kernel": "6.12.0-55.28.1.el10_0.x86_64",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.28.1.el10_0.x86_64-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-05-20",
-      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-05-20.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "rhel-10-linux-x86-64",
-      "kernel": "6.12.0-55.38.1.el10_0.x86_64",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.38.1.el10_0.x86_64-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-05-20",
-      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-05-20.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "rhel-10-linux-x86-64",
-      "kernel": "6.12.0-55.9.1.el10_0.x86_64",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.9.1.el10_0.x86_64-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-05-20",
-      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-05-20.zip"
-    },
-    {
       "guardium_version": "12.0",
       "stap_revision": 120251,
       "platform": "rhel-8-linux-x86-64",
@@ -67585,6 +67519,83 @@
       "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123489_2026-08-03.zip"
     },
     {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-124.47.1.el10_1.x86_64",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10u1x64m-6.12.0-124.47.1.el10_1.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-07-27",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-07-27.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-124.8.1.el10_1.x86_64",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10u1x64m-6.12.0-124.8.1.el10_1.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-07-27",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-07-27.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-55.12.1.el10_0.x86_64",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.12.1.el10_0.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-07-27",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-07-27.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-55.21.1.el10_0.x86_64",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.21.1.el10_0.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-07-27",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-07-27.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-55.28.1.el10_0.x86_64",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.28.1.el10_0.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-07-27",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-07-27.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-55.38.1.el10_0.x86_64",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.38.1.el10_0.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-07-27",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-07-27.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-55.9.1.el10_0.x86_64",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.9.1.el10_0.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-07-27",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-07-27.zip"
+    },
+    {
       "guardium_version": "12.2.1",
       "stap_revision": 123268,
       "platform": "ubuntu-22-linux-x86-64",
@@ -67592,8 +67603,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m2-5.15.0-117-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67603,8 +67614,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m2-5.15.0-118-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67614,8 +67625,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m2-6.2.0-1019-gcp-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67625,8 +67636,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m2-6.5.0-1014-gcp-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67636,8 +67647,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m2-6.5.0-1015-gcp-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67647,8 +67658,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m2-6.8.0-47-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67658,8 +67669,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m2-6.8.0-49-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67669,8 +67680,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m2-6.8.0-49-lowlatency-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67680,8 +67691,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-100-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67691,8 +67702,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-101-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67702,8 +67713,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-102-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67713,8 +67724,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-105-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67724,8 +67735,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-107-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67735,8 +67746,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-112-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67746,8 +67757,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-113-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67757,8 +67768,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-116-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67768,8 +67779,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-119-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67779,8 +67790,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-124-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67790,8 +67801,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-125-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67801,8 +67812,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-126-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67812,8 +67823,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-130-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67823,8 +67834,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-133-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67834,8 +67845,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-134-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67845,8 +67856,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-136-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67856,8 +67867,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-138-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67867,8 +67878,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-138-lowlatency-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67878,8 +67889,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-139-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67889,8 +67900,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-139-lowlatency-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67900,8 +67911,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-140-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67911,8 +67922,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-141-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67922,8 +67933,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-152-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67933,8 +67944,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-153-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67944,8 +67955,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-156-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67955,8 +67966,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-161-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67966,8 +67977,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-164-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67977,8 +67988,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-174-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67988,8 +67999,19 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-185-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
+    },
+    {
+      "guardium_version": "12.2.1",
+      "stap_revision": 123268,
+      "platform": "ubuntu-22-linux-x86-64",
+      "kernel": "5.15.0-186-generic",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-186-generic-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -67999,8 +68021,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-47-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68010,8 +68032,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-58-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68021,8 +68043,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-78-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68032,8 +68054,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-83-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68043,8 +68065,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-84-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68054,8 +68076,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-86-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68065,8 +68087,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-88-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68076,8 +68098,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-89-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68087,8 +68109,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-91-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68098,8 +68120,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-92-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68109,8 +68131,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-94-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68120,8 +68142,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-5.15.0-97-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68131,8 +68153,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-6.8.0-57-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68142,8 +68164,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-6.8.0-60-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68153,8 +68175,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-6.8.0-60-lowlatency-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68164,8 +68186,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-6.8.0-64-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68175,8 +68197,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-6.8.0-78-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68186,8 +68208,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-6.8.0-78-lowlatency-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68197,8 +68219,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-6.8.0-83-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68208,8 +68230,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-6.8.0-83-lowlatency-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68219,8 +68241,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-6.8.0-84-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68230,8 +68252,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-6.8.0-84-lowlatency-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68241,8 +68263,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-6.8.0-85-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68252,8 +68274,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-6.8.0-85-lowlatency-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68263,8 +68285,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-6.8.0-90-generic-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     },
     {
       "guardium_version": "12.2.1",
@@ -68274,8 +68296,8 @@
       "match_type": "EXACT",
       "matched_ko": "ktap-12.2.1.1_r123268_v12_x_1-ub22x64m-6.8.0-90-lowlatency-x86_64-SMP.ko",
       "mapped_from_kernel": null,
-      "publish_date": "2026-08-04",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-04.zip"
+      "publish_date": "2026-08-05",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-22-linux-x86-64_r123268_2026-08-05.zip"
     }
   ]
 }
