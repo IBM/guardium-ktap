@@ -14138,127 +14138,6 @@
     {
       "guardium_version": "12.2.2",
       "stap_revision": 123489,
-      "platform": "ubuntu-24-linux-x86-64",
-      "kernel": "6.11.0-26-generic",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.11.0-26-generic-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-04-24",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-04-24.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "ubuntu-24-linux-x86-64",
-      "kernel": "6.8.0-101-generic",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-101-generic-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-04-24",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-04-24.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "ubuntu-24-linux-x86-64",
-      "kernel": "6.8.0-41-generic",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-41-generic-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-04-24",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-04-24.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "ubuntu-24-linux-x86-64",
-      "kernel": "6.8.0-45-generic",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-45-generic-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-04-24",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-04-24.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "ubuntu-24-linux-x86-64",
-      "kernel": "6.8.0-48-generic",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-48-generic-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-04-24",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-04-24.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "ubuntu-24-linux-x86-64",
-      "kernel": "6.8.0-53-generic",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-53-generic-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-04-24",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-04-24.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "ubuntu-24-linux-x86-64",
-      "kernel": "6.8.0-58-generic",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-58-generic-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-04-24",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-04-24.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "ubuntu-24-linux-x86-64",
-      "kernel": "6.8.0-60-generic",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-60-generic-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-04-24",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-04-24.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "ubuntu-24-linux-x86-64",
-      "kernel": "6.8.0-63-generic",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-63-generic-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-04-24",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-04-24.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "ubuntu-24-linux-x86-64",
-      "kernel": "6.8.0-79-generic",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-79-generic-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-04-24",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-04-24.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "ubuntu-24-linux-x86-64",
-      "kernel": "6.8.0-90-generic",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-90-generic-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-04-24",
-      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-04-24.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
       "platform": "rhel-9-linux-s390x",
       "kernel": "5.14.0-162.6.1.el9_1.s390x",
       "match_type": "EXACT",
@@ -69805,6 +69684,138 @@
       "mapped_from_kernel": "5.15.0-322.203.3.2.el8uek.x86_64",
       "publish_date": "2026-08-31",
       "package_name": "Guardium_KTAP_12.1_rhel-8-linux-x86-64_r123502_2026-08-31.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "ubuntu-24-linux-x86-64",
+      "kernel": "6.11.0-26-generic",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.11.0-26-generic-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-02",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-09-02.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "ubuntu-24-linux-x86-64",
+      "kernel": "6.8.0-101-generic",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-101-generic-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-02",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-09-02.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "ubuntu-24-linux-x86-64",
+      "kernel": "6.8.0-134-generic",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-134-generic-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-02",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-09-02.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "ubuntu-24-linux-x86-64",
+      "kernel": "6.8.0-41-generic",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-41-generic-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-02",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-09-02.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "ubuntu-24-linux-x86-64",
+      "kernel": "6.8.0-45-generic",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-45-generic-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-02",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-09-02.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "ubuntu-24-linux-x86-64",
+      "kernel": "6.8.0-48-generic",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-48-generic-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-02",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-09-02.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "ubuntu-24-linux-x86-64",
+      "kernel": "6.8.0-53-generic",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-53-generic-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-02",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-09-02.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "ubuntu-24-linux-x86-64",
+      "kernel": "6.8.0-58-generic",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-58-generic-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-02",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-09-02.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "ubuntu-24-linux-x86-64",
+      "kernel": "6.8.0-60-generic",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-60-generic-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-02",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-09-02.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "ubuntu-24-linux-x86-64",
+      "kernel": "6.8.0-63-generic",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-63-generic-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-02",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-09-02.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "ubuntu-24-linux-x86-64",
+      "kernel": "6.8.0-79-generic",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-79-generic-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-02",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-09-02.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "ubuntu-24-linux-x86-64",
+      "kernel": "6.8.0-90-generic",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-ub24x64m-6.8.0-90-generic-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-02",
+      "package_name": "Guardium_KTAP_12.2_ubuntu-24-linux-x86-64_r123489_2026-09-02.zip"
     }
   ]
 }
