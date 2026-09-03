@@ -46102,83 +46102,6 @@
       "package_name": "Guardium_KTAP_12.2_rhel-8-linux-s390x_r123489_2026-07-31.zip"
     },
     {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "rhel-10-linux-x86-64",
-      "kernel": "6.12.0-124.47.1.el10_1.x86_64",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10u1x64m-6.12.0-124.47.1.el10_1.x86_64-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-07-27",
-      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-07-27.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "rhel-10-linux-x86-64",
-      "kernel": "6.12.0-124.8.1.el10_1.x86_64",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10u1x64m-6.12.0-124.8.1.el10_1.x86_64-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-07-27",
-      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-07-27.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "rhel-10-linux-x86-64",
-      "kernel": "6.12.0-55.12.1.el10_0.x86_64",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.12.1.el10_0.x86_64-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-07-27",
-      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-07-27.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "rhel-10-linux-x86-64",
-      "kernel": "6.12.0-55.21.1.el10_0.x86_64",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.21.1.el10_0.x86_64-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-07-27",
-      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-07-27.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "rhel-10-linux-x86-64",
-      "kernel": "6.12.0-55.28.1.el10_0.x86_64",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.28.1.el10_0.x86_64-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-07-27",
-      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-07-27.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "rhel-10-linux-x86-64",
-      "kernel": "6.12.0-55.38.1.el10_0.x86_64",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.38.1.el10_0.x86_64-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-07-27",
-      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-07-27.zip"
-    },
-    {
-      "guardium_version": "12.2.2",
-      "stap_revision": 123489,
-      "platform": "rhel-10-linux-x86-64",
-      "kernel": "6.12.0-55.9.1.el10_0.x86_64",
-      "match_type": "EXACT",
-      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.9.1.el10_0.x86_64-x86_64-SMP.ko",
-      "mapped_from_kernel": null,
-      "publish_date": "2026-07-27",
-      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-07-27.zip"
-    },
-    {
       "guardium_version": "12.2.1",
       "stap_revision": 123268,
       "platform": "ubuntu-22-linux-x86-64",
@@ -70124,6 +70047,116 @@
       "mapped_from_kernel": "6.12.0-106.55.4.1.el9uek.x86_64",
       "publish_date": "2026-09-02",
       "package_name": "Guardium_KTAP_12.2_rhel-9-linux-x86-64_r123268_2026-09-02.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-124.47.1.el10_1.x86_64",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10u1x64m-6.12.0-124.47.1.el10_1.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-03",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-09-03.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-124.8.1.el10_1.x86_64",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10u1x64m-6.12.0-124.8.1.el10_1.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-03",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-09-03.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-211.16.1.el10_2.x86_64",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10u2x64m200-6.12.0-211.16.1.el10_2.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-03",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-09-03.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-211.7.3.el10_2.x86_64",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10u2x64m200-6.12.0-211.7.3.el10_2.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-03",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-09-03.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-55.12.1.el10_0.x86_64",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.12.1.el10_0.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-03",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-09-03.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-55.21.1.el10_0.x86_64",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.21.1.el10_0.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-03",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-09-03.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-55.28.1.el10_0.x86_64",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.28.1.el10_0.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-03",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-09-03.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-55.38.1.el10_0.x86_64",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.38.1.el10_0.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-03",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-09-03.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-55.9.1.el10_0.x86_64",
+      "match_type": "EXACT",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10x64m-6.12.0-55.9.1.el10_0.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": null,
+      "publish_date": "2026-09-03",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-09-03.zip"
+    },
+    {
+      "guardium_version": "12.2.2",
+      "stap_revision": 123489,
+      "platform": "rhel-10-linux-x86-64",
+      "kernel": "6.12.0-124.56.1.el10_1.x86_64",
+      "match_type": "EXACT-LIKE",
+      "matched_ko": "ktap-12.2.2.0_r123489_v12_x_1-rh10u1x64m-6.12.0-124.47.1.el10_1.x86_64-x86_64-SMP.ko",
+      "mapped_from_kernel": "6.12.0-124.47.1.el10_1.x86_64",
+      "publish_date": "2026-09-03",
+      "package_name": "Guardium_KTAP_12.2_rhel-10-linux-x86-64_r123489_2026-09-03.zip"
     }
   ]
 }
